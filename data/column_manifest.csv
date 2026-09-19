@@ -1,0 +1,182 @@
+column,disposition
+participant_id,added: pseudonymous key replacing ResponseId
+StartDate,dropped: direct identifier / session metadata
+EndDate,dropped: direct identifier / session metadata
+Status,dropped: direct identifier / session metadata
+IPAddress,dropped: direct identifier / session metadata
+Progress,dropped: constant
+Duration (in seconds),dropped: direct identifier / session metadata
+Finished,dropped: constant
+RecordedDate,dropped: direct identifier / session metadata
+ResponseId,dropped: direct identifier; column name reused for the pseudonymous key (= participant_id)
+RecipientLastName,dropped: direct identifier / session metadata
+RecipientFirstName,dropped: direct identifier / session metadata
+RecipientEmail,dropped: direct identifier / session metadata
+ExternalReference,dropped: direct identifier / session metadata
+LocationLatitude,dropped: direct identifier / session metadata
+LocationLongitude,dropped: direct identifier / session metadata
+DistributionChannel,dropped: constant
+UserLanguage,dropped: constant
+Q159,retained
+walk_wave_1,retained
+cycle_wave_1,retained
+plan_wave_1,retained
+attach_wave_1,retained
+Q127_First Click,dropped: page-timing paradata
+Q127_Last Click,dropped: page-timing paradata
+Q127_Page Submit,dropped: page-timing paradata
+Q127_Click Count,dropped: page-timing paradata
+walk_wave_2,retained
+cycle_wave_2,retained
+plan_wave_2,retained
+attach_wave_2,retained
+Q128_First Click,dropped: page-timing paradata
+Q128_Last Click,dropped: page-timing paradata
+Q128_Page Submit,dropped: page-timing paradata
+Q128_Click Count,dropped: page-timing paradata
+walk_wave_3,retained
+cycle_wave_3,retained
+plan_wave_3,retained
+attach_wave_3,retained
+AI_or_Conventional,retained
+QID133,"dropped: duplicate, empty or unread"
+QID134,"dropped: duplicate, empty or unread"
+Traditional_Strengths,retained
+Traditional_Strengths_Other,emptied: free text (column header retained)
+Traditional_Limitations,retained
+Traditional_Limitations_Other,emptied: free text (column header retained)
+AI_Strengths.x,retained
+AI_Strengths_Other.x,emptied: free text (column header retained)
+AI_Limitations.x,retained
+AI_Limitations_Other.x,emptied: free text (column header retained)
+AI_Influence,retained
+Civic_Engagement_Change,retained
+Walking_Interest_Change,retained
+Cycling_Interest_Change,retained
+Place_Attachment_Change,retained
+Engagement_Interest_Type.x,"dropped: duplicate, empty or unread"
+QID148,retained
+QID149,retained
+QID150,retained
+QID151,emptied: free text (column header retained)
+QID152,emptied: free text (column header retained)
+Primary_Transportation,retained
+Walking_Frequency,retained
+Cycling_Frequency,retained
+QID92,"dropped: quasi-identifier, unread by deposited scripts"
+Planning_Knowledge,retained
+AI_Experience,retained
+AI_Tool_Usage,retained
+Race_Ethnicity,retained
+Gender,retained
+QID100,"dropped: duplicate, empty or unread"
+Hometown,retained
+College,"dropped: quasi-identifier, unread by deposited scripts"
+Year_of_Study,"dropped: quasi-identifier, unread by deposited scripts"
+Housing_Location,"dropped: quasi-identifier, unread by deposited scripts"
+walk_diff_1,retained
+cycle_diff_1,retained
+plan_diff_1,retained
+attach_diff_1,retained
+walk_diff_2,retained
+cycle_diff_2,retained
+plan_diff_2,retained
+attach_diff_2,retained
+walk_diff_total,retained
+cycle_diff_total,retained
+plan_diff_total,retained
+attach_diff_total,retained
+experiment_1,retained
+experiment_2,retained
+location_1,retained
+location_2,retained
+genai_first,retained
+street_first,retained
+walk_ai,retained
+walk_conv,retained
+cycle_ai,retained
+cycle_conv,retained
+plan_ai,retained
+plan_conv,retained
+attach_ai,retained
+attach_conv,retained
+walk_street,retained
+walk_park,retained
+cycle_street,retained
+cycle_park,retained
+plan_street,retained
+plan_park,retained
+attach_street,retained
+attach_park,retained
+walk_total_genai_first,retained
+walk_total_conv_first,retained
+cycle_total_genai_first,retained
+cycle_total_conv_first,retained
+plan_total_genai_first,retained
+plan_total_conv_first,retained
+attach_total_genai_first,retained
+attach_total_conv_first,retained
+walk_total_street_first,retained
+walk_total_park_first,retained
+cycle_total_street_first,retained
+cycle_total_park_first,retained
+plan_total_street_first,retained
+plan_total_park_first,retained
+attach_total_street_first,retained
+attach_total_park_first,retained
+Walking_Frequency_num,retained
+Cycling_Frequency_num,retained
+Planning_Knowledge_num,retained
+AI_Experience_num,retained
+AI_Tool_Usage_num,retained
+Year_of_Study_num,"dropped: quasi-identifier, unread by deposited scripts"
+AI_or_Conventional_num,retained
+AI_Influence_num,retained
+Civic_Engagement_Change_num,retained
+Walking_Interest_Change_num,retained
+Cycling_Interest_Change_num,retained
+Place_Attachment_Change_num,retained
+Trad_Strength_Speed,retained
+Trad_Strength_Accuracy,retained
+Trad_Strength_Ease,retained
+Trad_Strength_Creative_Freedom,retained
+Trad_Strength_Quality,retained
+Trad_Strength_Control,retained
+Trad_Strength_Other,retained
+Trad_Limitation_Time,retained
+Trad_Limitation_Artistic,retained
+Trad_Limitation_Perspective,retained
+Trad_Limitation_Appeal,retained
+Trad_Limitation_Changes,retained
+Trad_Limitation_Realistic,retained
+Trad_Limitation_Detail,retained
+Trad_Limitation_Other,retained
+AI_Strengths.y,"dropped: duplicate, empty or unread"
+AI_Strengths_Other.y,"dropped: duplicate, empty or unread"
+AI_Strengths_Split,"dropped: duplicate, empty or unread"
+AI_Strength_Speed,retained
+AI_Strength_Accuracy,retained
+AI_Strength_Ease,retained
+AI_Strength_Creative_Inspiration,retained
+AI_Strength_Quality,retained
+AI_Strength_Realistic,retained
+AI_Strength_Other,retained
+AI_Limitations.y,"dropped: duplicate, empty or unread"
+AI_Limitations_Other.y,"dropped: duplicate, empty or unread"
+AI_Limitations_Split,"dropped: duplicate, empty or unread"
+AI_Limitation_Control,retained
+AI_Limitation_Accuracy,retained
+AI_Limitation_Generic,retained
+AI_Limitation_Learning,retained
+AI_Limitation_Unexpected,retained
+AI_Limitation_Creative,retained
+AI_Limitation_Technical,retained
+AI_Limitation_Other,retained
+Engagement_Interest_Type.y,"dropped: duplicate, empty or unread"
+Engagement_Interest_Split,"dropped: duplicate, empty or unread"
+Engagement_Public_Meetings,retained
+Engagement_Online_Surveys,retained
+Engagement_Traditional_Workshops,retained
+Engagement_AI_Workshops,retained
+Engagement_Voting,retained
+Engagement_Social_Media,retained

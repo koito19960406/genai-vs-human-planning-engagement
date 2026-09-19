@@ -1,0 +1,10 @@
+# Outputs: regenerate by running the scripts in genai_experiment/modeling/
+reports/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
